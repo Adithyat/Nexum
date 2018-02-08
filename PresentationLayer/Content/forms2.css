@@ -1,0 +1,155 @@
+select {
+	width: 100%;
+}
+.required {
+	color: red;
+	left: 3px;
+	position: relative;
+}
+.padbottom
+{
+	padding-bottom:10px;
+}
+/* @group forms */
+* {
+    box-sizing: border-box;
+}
+#profile td {
+	vertical-align: middle;
+	padding: 5px 0;
+}
+
+fieldset {
+	border: 1px solid #ccc;
+	padding: 10px;
+	background: #f9f9f9;
+	text-align: left;
+	position: relative;
+	margin-bottom:10px;
+}
+
+fieldset input, fieldset textarea {
+	margin: 0;
+}
+
+legend {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+	color: #333;
+	font-size: 14px;
+	font-weight: bold !important;
+	margin-bottom: 0;
+	padding: 3px 6px;
+}
+
+#profile {
+	margin: 0 auto;
+	text-align: left;
+	overflow: hidden;
+}
+
+#profile label {
+	text-align: right;
+	float: left;
+    display: block;
+    width: 100%;
+    padding-right: 10px;
+    padding: 5px 0;
+    margin:0 1em 0 0;
+}
+#profile input {
+	width: 100%;
+	padding: 0;
+}
+.cp-c1, .cp-c2, .cp-c3, .cp-c4, .cp-span2 {
+    float: left; 
+}
+.cp-c1, .cp-c3 {
+    width: 16%;
+}
+.cp-c2, .cp-c4 {
+    width: 30%;
+    margin-left: 2%;
+}
+.cp-row {
+    clear: both;
+    padding: 5px 0;
+    overflow: hidden;
+}
+.cp-span2 { width: 75%; margin-left: 2%;}
+
+.submitdetails {
+	margin: 0;
+	text-align: right;
+	clear: both;
+	margin: 0;
+	width: auto;
+}
+.footnote {
+	float: left;
+}
+button {
+	border: 1px solid #9;
+	background: white;
+	padding: 5px 20px;
+	margin: 0 10px 0 0;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+button.buttoncancel {
+	margin: 0 10px 0 0;
+	background-color: #f1f1f1;
+	color: #666;
+}
+button:hover {
+	cursor: pointer;
+	background-color: #fff;
+	border-color: #CCC;
+}
+.buttonsubmit {
+	background: white;
+}
+.buttoncancel {
+	background-color: #f1f1f1;
+	color: #666;
+}
+input.buttonsubmit,input.buttoncancel {
+    float: right; display:inline; border: 1px solid #CCC!important; height: auto;
+    padding: 10px 20px; margin: 0 0 1em 2em;
+    box-shadow: 0 1px 3px rgba(0,0,0,.15);
+    -webkit-transition: all .5s ease-out; 
+    border-radius: 5px;-moz-border-radius: 5px;
+}
+input.buttonsubmit:hover,input.buttoncancel:hover {
+    background:#ffe600;
+}
+
+*+html fieldset {
+	background-color:transparent;
+}
+*+html legend {
+	margin-bottom: 1em;
+}
+*+html  #profile input, #profile textarea {
+  margin-left:-5px;
+}
+#profile input.chngepass {
+	width: 30px;
+}
+#profile label.chngepass {
+	text-align: left;
+	width: auto;margin: 0; margine-top:5px;
+}
+#profile label.chngepass, 
+#profile input.chngepass {
+    float:left; vertical-align:middle; padding: 0;
+}
+
+#profile .msg {
+    font-weight: normal;
+}
+#profile .errormsg {
+    color: #FF0000;
+    font-weight: bold;
+}
+/* @end */

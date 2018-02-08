@@ -1,0 +1,42 @@
+﻿.mtab {
+    width:100%; 
+    border:0; 
+    padding:0;
+}
+#tr1{
+    vertical-align:top;
+}
+#td1{
+    width:25%;
+    white-space:nowrap;
+}
+.td2 {
+    text-align: right;
+    vertical-align: top;
+    white-space: nowrap;
+}
+#td3 {
+    text-align: right;
+    vertical-align: middle;
+}
+#td6{
+    width:60%;
+}
+#td4{
+    width:40%;
+    text-align:left;
+}
+.img1{
+   vertical-align:middle;
+}
+#view{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.homebody {
+    
+    margin:auto;
+    display: block;
+}
+

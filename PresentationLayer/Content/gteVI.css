@@ -1,0 +1,2201 @@
+/*DO NOT ADD EMPTY SPACE and MULTIPLE LINE FOR SINGLE STYLE. TYPE IN ONE LINE - */
+/*---Alignment---*/
+
+.alignLeft  {
+  text-align: left
+}
+
+.alignRight  {
+  text-align: right
+}
+
+.alignCenter  {
+  text-align: center
+}
+
+.valignTop  {
+  vertical-align: top;
+}
+
+.valignBottom  {
+  vertical-align: bottom;
+}
+
+/*---End Alignment---*/
+/*---Body---*/
+body  {
+  margin: 2 5 5 5;
+  padding: 0 0 0 0;
+  color: #000000;
+  font-family: Arial Unicode MS,Verdana,sans-serif;
+  line-height: 1.4;
+}
+
+body {
+  font-size: 69%;
+}
+
+body a {
+  color: #336699;
+  text-decoration: none;
+  cursor: hand;
+  color: #336699;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+body table {
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 100%;
+}
+
+#frmMain {
+  border: none;
+  width: 992px;
+  height: 100%;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.modalButton {
+  width: 60px;
+  font-size: 1em;
+  background-color: #dcdcdc;
+  color: #000000;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 5px;
+  border: 1px solid #969696;
+  font-weight: bold;
+  height: 17px;
+  cursor: hand;
+  text-align: center;
+}
+
+/*---End Body---*/
+/*---Form Elements---*/
+/*---Buttons---*/
+.button {
+  font-size: 1em;
+  background-color: #dcdcdc;
+  color: #000000;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 5px;
+  border: 1px solid #969696;
+  font-weight: bold;
+  height: 19px;
+  cursor: hand;
+  text-align: center 
+}
+
+.buttonDisable {
+  font-size: 1em;
+  background-color: #ededed;
+  color: #666666;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 5px;
+  border: 1px solid #cacaca;
+  font-weight: bold;
+  height: 17px;
+  cursor: hand;
+  text-align: center
+}
+
+/*---End Buttons---*/
+/*---Dropdown---*/
+select  {
+  color: #333333;
+  rules: none;
+  font-size: 1em;
+  border: 1px solid black;
+}
+
+.selectBold {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+/*---End Dropdown---*/
+/*---TextArea---*/
+/*textarea {border:1px solid #999;padding:9px; font-size:1em; color:#666;font-family:Arial, Helvetica, sans-serif;}*/
+textarea  {
+  border: 1px solid #999;
+  font-size: 1em;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*---End TextArea---*/
+/*---Textbox---*/
+/*---Scrollable List---*/
+.ScrollableDiv  {
+  overflow-y: expression(this.childNodes[0].disabled?"scroll":"none");
+  POSITION: relative;
+  height: 65px;
+}
+
+/*---Scrollable List---*/
+.ie9 .text  {
+  font-size: 1em;
+}
+
+.text  {
+  font-size: 1em;
+  font-family: Arial Unicode MS,Verdana,sans-serif;
+}
+
+.ie9 textarea  {
+  font-size: 1em;
+  background-color: green
+}
+
+textarea  {
+  font-size: 1em;
+  font-family: Arial Unicode MS,Verdana,sans-serif;
+}
+
+.textboxError {
+  background-color: #FFFF99;
+}
+
+.textboxLabel {
+  border-style: none;
+  border-collapse: collapse;
+  border-width: thin;
+}
+
+input.text {
+  width: 220px;
+}
+
+.disableTextBox {
+  background-color: #DCDCDC;
+  font-size: 1em;
+}
+
+.textw95h17 {
+  font-size: 1em;
+  width: 95px;
+  height: 17px;
+}
+
+/*---Textbox---*/
+/* End Form Elements*/
+/*---Grid View Style---*/    	
+.gridFixedPagerRow  {
+  text-align: left;
+  height: 20px;
+  position: relative;
+  top: expression(this.offsetParent.scrollTop);
+  z-index: 100;
+  background-color: white;
+  text-decoration: none;
+  color: black
+}
+
+.gridPagerRowHidden  {
+  display: none;
+}
+
+.gridFixed  {
+  table-layout: fixed
+}
+
+#GridPaging a {
+  color: #336699
+}
+
+/*#GridPaging {font-weight:bold;}*/
+.BorderGray  {
+  border: solid 1px #d9d9d9;
+}
+
+.BorderWhite  {
+  border-right: solid 1px White;
+}
+
+.gridViewOddRow  {
+  height: 23px;
+  background-color: whitesmoke;
+}
+
+.gridViewEvenRow  {
+  height: 23px;
+  background-color: white;
+}
+
+.gridViewPadding td  {
+  padding: 0 5 0 5;
+  border-right: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
+}
+
+.gridViewHighlightedRow  {
+  height: 23px;
+  background-color: #d9d9d9;
+}
+
+.gridViewDividerRow  {
+  height: 8px;
+}
+
+.gridViewDividerRow td  {
+  border-top: solid 1px #d9d9d9;
+  border-bottom: solid 1px #d9d9d9;
+}
+
+.gridFixedHeaderRow th  {
+  background-color: #d9d9d9;
+  border-right: solid 1px white;
+  padding: 0 5 0 5;
+}
+
+.gridFixedHeaderRow td  {
+  z-index: 100;
+  background-color: #d9d9d9;
+  font-weight: bold;
+  color: #000000;
+}
+
+.gridFixedHeaderRow a:visited  {
+  color: #000000
+}
+
+.gridFixedHeaderRow a:link  {
+  color: #000000
+}
+
+.gridFixedHeaderRow  {
+  position: relative;
+  top: expression(this.offsetParent.scrollTop -2);
+  z-index: 100;
+  background-color: white;
+  height: 23px;
+  vertical-align: middle
+}
+
+.gridHeaderRow th  {
+  background-color: #d9d9d9;
+  border-right: solid 1px white;
+  padding: 0 5 0 5;
+}
+
+.gridHeaderRow td  {
+  z-index: 100;
+  background-color: #d9d9d9;
+  font-weight: bold;
+  color: #000000;
+}
+
+.gridHeaderRow  {
+  position: relative;
+  z-index: 100;
+  background-color: white;
+  height: 23px;
+  vertical-align: middle
+}
+
+.headerRow {
+  background-color: #d9d9d9;
+  color: #000000;
+  font-weight: bold;
+  height: 23px;
+}
+
+.gridHiddenCol  {
+  display: none;
+}
+
+.gridVisibleCol	 {
+  display: block;
+}
+
+.gridRightCol  {
+  text-align: right;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.gridLeftCol  {
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.gridCenterCol  {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.gridSmallCol  {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.gridSmallColCenter {
+  text-align: center;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.gridRowTemplate {
+  padding: 5px 20px 5px 5px
+}
+
+.gridSeparatorRow td {
+  height: 5px;
+  border-left-color: White;
+}
+
+/*---End Grid View Style---*/
+/*---Master Page div containers---*/
+.divTopBar {
+  border: none;
+  width: 980px;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.divMainBody  {
+  background-color: #FFFFFF;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  min-height: 768px;
+  HEIGHT: expression(body.clientHeight - 23);
+  width: 980px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.divHeader {
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    zoom: 1;
+}
+
+.divContent {
+  border: none;
+  width: 100%;
+  overflow: hidden;
+  HEIGHT: expression(body.clientHeight - 150);
+}
+
+.divFooter {
+    
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    min-width: 600px;
+    width: 90%;
+    height: 20px;
+    background: #CCCCCC;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+.divFooter ul  {
+  border: none;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  height: 20px;
+}
+
+.divFooter ul li {
+  color: #666666;
+  font-weight: normal;
+  position: relative;
+  float: left;
+  display: inline;
+  padding-right: 10px;
+}
+
+/* End Master Page Div containers*/
+
+/* Used in Content Pages*/
+.divQuickLinks {
+  background-color: whitesmoke;
+  margin: 1 1 15 5;
+  padding: 10 10 10 10;
+  border: 1px solid #ccc;
+}
+
+.divQuickLinks ul li {
+  margin-top: 5;
+  margin-bottom: 5;
+}
+
+.divTopToolbar {
+  margin-top: 10px;
+  border: none;
+}
+
+.divContentUpper {
+  background-color: #f0f0f0;
+  margin-top: 10px;
+  border: 1px solid #cccccc;
+  width: expression(this.offsetParent.clientWidth)
+}
+
+.divCenterToolbar {
+  border: none;
+  margin-top: 10px;
+}
+
+.divContentLower {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  overflow: auto;
+  width: 100%;
+  height: expression(this.offsetParent.clientHeight - this.offsetTop - 1);
+}
+
+.divContentLowerWithBToolTimeEntry {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  overflow: auto;
+  width: 100%;
+  height: expression(this.offsetParent.clientHeight - this.offsetTop - 50);
+  ;}
+
+.divContentLowerWithBTool {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  overflow: auto;
+  width: 100%;
+  height: expression(this.offsetParent.clientHeight - this.offsetTop - 30);
+}
+
+.divContentLowerWithBToolOffset100 {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  overflow: auto;
+  width: 100%;
+  height: expression(this.offsetParent.clientHeight - this.offsetTop - 100);
+}
+
+.divContentLowerNoBorder {
+  margin-top: 10px;
+  padding: 0;
+  border-top: solid 1px gray;
+  overflow: auto;
+  width: 100%;
+  height: expression(this.offsetParent.clientHeight - this.offsetTop - 1);
+}
+
+.divContentLowerNoBorderBTool {
+  margin-top: 10px;
+  overflow: auto;
+  width: 100%;
+  height: expression(this.offsetParent.clientHeight - this.offsetTop - 31);
+}
+
+.divContentLowerNoBorderBToolMarginTop5 {
+  margin-top: 5px;
+  overflow: auto;
+  width: 100%;
+  height: expression(this.offsetParent.clientHeight - this.offsetTop - 31);
+}
+
+.divContentLowerBasic {
+  margin-top: 3px;
+  border: 1px solid #ccc;
+  overflow: auto;
+  width: 100%;
+  height: expression(this.offsetParent.clientHeight - this.offsetTop - 1);
+}
+
+.divBottomToolbar {
+  margin-top: 10px;
+  margin-bottom: 0;
+  border: none;
+}
+
+.divBottomToolbarMarginTop5 {
+  margin-top: 5px;
+  margin-bottom: 0;
+  border: none;
+}
+
+/* End of Page divs.*/
+/* Time Module start*/
+.divTimesheetError {
+  font-weight: bold;
+  line-height: 130%;
+  margin: 0 0 1em;
+  width: auto;
+  font-size: 0.9em;
+  position: absolute;
+  border: 1px solid #ccc;
+  padding: 5 5 5 5;
+  visibility: hidden;
+  background: white;
+  color: #CC0000;
+}
+
+.tdDaytime {
+  padding-left: 10px;
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+.tdDaytimeLast {
+  padding-left: 10px;
+}
+
+.lblDaytime {
+  padding-right: 15px;
+}
+
+.ctrlMarginTop {
+  margin-top: 4;
+}
+
+.ctrlMarginBottom {
+  margin-bottom: 4;
+}
+
+.ctrlMarginLeft {
+  margin-left: 4;
+}
+
+.ctrlMarginRight {
+  margin-right: 4;
+}
+
+.spacer {
+    height: 1em;
+}
+
+.spanClientName {
+  border: solid 1px #999;
+  padding: 2 2 2 2;
+  height: 20px;
+  width: 200px;
+}
+
+.tableCtrlSpacing td, .ctrlSpacing {
+  padding: 4 4 4 4;
+}
+
+.warningText {
+  color: #993399;
+  font-weight: bold;
+}
+
+.TimesheetError {
+  cursor: default;
+  background-image: url('../Images/AlertYellow.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+}
+
+.LookupIcon {
+  cursor: default;
+  background-image: url('../Images/lookup.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15px;
+  height: 17px;
+}
+
+.currentWeekEnding {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  cursor: hand;
+}
+
+/* Time Module end */
+/*---Labels---*/
+
+.text8 {
+  color: #666666;
+  font-size: .8em
+}
+
+.Gray {
+  color: #666666;
+}
+
+.White {
+  color: White;
+}
+
+.Red {
+  color: Red;
+}
+
+.Green {
+  color: Green;
+}
+
+.BoldGray {
+  font-weight: bold;
+  color: #666666;
+}
+
+.BoldBlack {
+  font-weight: bold;
+}
+
+.Bold {
+  font-weight: bold
+}
+
+.text90 {
+  font-size: 0.9em;
+}
+
+.text105 {
+  font-size: 1.5em;
+}
+
+.nobr {
+  white-space: nowrap;
+}
+
+/*---End Label---*/ 
+/*---Links---*/
+a.letterInactive:visited {
+  color: #C8C8C8 ;
+  text-decoration: none;
+  cursor: default;
+}
+
+a.letterInactive:link {
+  color: #C8C8C8 ;
+  text-decoration: none;
+  cursor: default;
+}
+
+a.letterInactive:hover {
+  color: #C8C8C8 ;
+  text-decoration: none;
+  cursor: default;
+}
+
+a.letterInactive  {
+  color: #C8C8C8 ;
+  text-decoration: none;
+  cursor: default;
+}
+
+a.letterActive:visited	 {
+  color: #336699;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.letterActive:link	 {
+  color: #336699;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.letterActive:hover  {
+  color: #000000;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a.letterActive  {
+  background-color: Transparent;
+  border-style: None;
+  PADDING-RIGHT: 1px;
+  CURSOR: hand;
+  font-weight: bold;
+}
+
+a.letterSelected:visited  {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.05em;
+  font-weight: bold;
+}
+
+a.letterSelected:link  {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.05em;
+  font-weight: bold;
+}
+
+a.letterSelected:hover  {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.05em;
+  font-weight: bold;
+}
+
+a.letterSelected  {
+  background-color: Transparent;
+  border-style: None;
+  PADDING-RIGHT: 1px;
+  CURSOR: hand;
+  font-size: 1.05em;
+  font-weight: bold;
+}
+
+/*---Links---*/
+/*---Lists---*/
+ul ul {
+  list-style-type: circle;
+  padding-left: 0px;
+}
+
+ul, ol {
+  margin: 0 1em 1em 1.5em;
+}
+
+/*BH modified from 1.5em*/
+ul {
+  list-style-type: square;
+  color: #000000;
+  padding-left: 0;
+}
+
+/*BH modified from 1.5em*/
+ol  {
+  list-style-type: decimal;
+}
+
+dl  {
+  margin: 0 0 1.5em 0;
+}
+
+dl dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 1.5em;
+}
+
+/*--- End Lists---*/
+/*---Headings---*/
+h1  {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h2  {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+h3  {
+  font-size: 1.16em;
+  font-weight: bold;
+}
+
+h4  {
+  font-size: 1.08em;
+  font-weight: bold;
+}
+
+h5  {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+h6  {
+  font-size: .9em;
+  font-weight: bold;
+}
+
+/*---End Headings---*/
+/*---Images---*/
+img  {
+  margin: 0;
+}
+
+/*--End Images---*/
+
+/*---Paragraphs---*/
+p  {
+  margin: 0 0 1em;
+}
+
+p img  {
+  padding: 0;
+}
+
+p img.top    {
+  margin-top: 0;
+}
+
+/* Use this if the image is at the top of the <p>. */
+/*---End Paragraphs---*/
+/*---Tables---*/
+table    {
+  margin-bottom: 1.4em;
+}
+
+th       {
+  font-weight: bold;
+}
+
+tfoot    {
+  font-style: italic;
+}
+
+caption  {
+  color: red;
+}
+
+/*---End Tables---*/
+/*---Visibility*---*/
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+/*---End Visibility---*/
+
+/*---Modal Dialog Styles---*/
+.waitImage {
+  cursor: default;
+  background-image: url('../Images/wait.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.modalBackground  {
+  background-color: Silver;
+  filter: alpha(opacity=70);
+  opacity: 0.7;
+}
+
+.divModalInfo {
+  cursor: move;
+  background-color: White;
+  border-left: solid 5 gray;
+  border-right: solid 5 gray;
+  border-top: solid 12 gray;
+  border-bottom: solid 7 gray;
+  height: auto;
+  min-height: 160px;
+  width: 350px;
+  padding: 5 15 5 15;
+  overflow: hidden;
+}
+
+.divModalLarge {
+  cursor: move;
+  background-color: White;
+  border-left: solid 5 gray;
+  border-right: solid 5 gray;
+  border-top: solid 12 gray;
+  border-bottom: solid 7 gray;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.modalHeader {
+  width: 100%;
+  height: 30px;
+  border: none;
+  text-align: left;
+  overflow: hidden;
+}
+
+.modalBodyBulk {
+  border: 1px solid #ccc;
+  width: 100%;
+  vertical-align: top;
+  margin: 0 3 5 5;
+  text-align: left;
+  overflow: auto;
+}
+
+.modalBody {
+  border: none;
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+  text-align: left;
+  overflow: hidden;
+}
+
+.modalFooter {
+  padding-top: 10px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  vertical-align: bottom;
+  text-align: center;
+  overflow: hidden;
+}
+
+.modalFrame {
+  width: 100%;
+  height: 100%;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  overflow: hidden;
+  vertical-align: top;
+  border: none;
+}
+
+.divPopupBody  {
+  border: 1px solid #ccc;
+  background-color: #FFFFFF;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  HEIGHT: expression(body.clientHeight - 10);
+  width: expression(body.clientWidth - 10);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.divPopupHeader {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.divPopupContent {
+  border: 0;
+  width: 100%;
+  overflow: hidden;
+  HEIGHT: expression(body.clientHeight - 60);
+}
+
+.divPopupBottomToolbar {
+  margin-top: 10px;
+  margin-bottom: 0;
+  border: none;
+  width: 100%;
+  height: expression(this.offsetParent.clientHeight - this.offsetTop - 10);
+}
+
+.divPopupContentUpper {
+  background-color: #f0f0f0;
+  margin-top: 10px;
+  border: 1px solid #cccccc;
+  width: expression(this.offsetParent.clientWidth)
+}
+
+.divPopupContentUpperScroll {
+  background-color: #f0f0f0;
+  margin-top: 10px;
+  border: 1px solid #cccccc;
+  overflow: auto;
+  width: expression(this.offsetParent.clientWidth)
+}
+
+.popupWaitBackground {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: White;
+  height: expression(body.offsetHeight);
+  width: expression(body.offsetWidth);
+  z-index: 6000;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+
+.popupWaitDisplay {
+  background-color: White;
+  border-left: solid 5 gray;
+  border-right: solid 5 gray;
+  border-top: solid 7 gray;
+  border-bottom: solid 7 gray;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  height: 100px;
+  width: 250px;
+  top: expression((body.offsetHeight-160)/2);
+  left: expression((body.offsetWidth-270)/2);
+  filter: alpha(opacity=100);
+  opacity: 1;
+  z-index: 6001 
+}
+
+.divPopupFrameBody  {
+  border: none;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  text-align: left;
+  position: relative;
+}
+
+.divPopupFrameContent {
+  border: 0;
+  width: 95%;
+  overflow: hidden;
+  HEIGHT: expression(body.clientHeight-25);
+}
+
+.divPopupFrameContentUpper {
+  background-color: #f0f0f0;
+  margin-top: 10px;
+  border: 1px solid #cccccc;
+  width: expression(this.offsetParent.clientWidth)
+}
+
+.divPopupContentLowerWithBTool {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  overflow: auto;
+  width: 100%;
+  height: expression(this.offsetParent.clientHeight - this.offsetTop - 50);
+}
+
+/*---End Test Styles---*/
+
+
+/*---Cursor Styles---*/
+.cursorHand {
+  cursor: hand;
+}
+
+/*---End Cursor Styles---*/
+/*Paging Table*/
+.paging {
+  border: none;
+  width: 100%;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.leftPagingMessage {
+  text-decoration: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  width: 5%;
+}
+
+.pagingCell {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  width: 55%;
+}
+
+.rightPagingMessage {
+  text-decoration: none;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  width: 40%;
+}
+
+/*End Paging Table*/
+
+/* Expense Details Listing */
+.expEngAuthorized {
+  color: #339900;
+}
+
+.expEngChargeable {
+  color: #3366CC;
+}
+
+.expEngNonChargeable {
+  color: #000000;
+}
+
+.expEngUnknown {
+  color: #999999;
+}
+
+.expEngMultiple {
+  color: Maroon;
+}
+
+.childDetailRow {
+  background-color: #d9d9d9;
+}
+
+/* End Expense Detail Listing */
+
+/*Expense Icons*/
+.ActionRequested {
+  cursor: default;
+  background-image: url('../Images/actionrequired.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 14px;
+  height: 12px;
+  text-decoration: none;
+}
+
+.ExpenseReview {
+  cursor: default;
+  background-image: url('../Images/notify.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 14px;
+  height: 11px;
+  text-decoration: none;
+}
+
+.ReceiptsRequired {
+  cursor: default;
+  background-image: url('../Images/fax.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 13px;
+  height: 12px;
+  text-decoration: none;
+}
+
+.CardTransImage {
+  cursor: default;
+  background-image: url('../Images/amex.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 25px;
+  height: 16px;
+  text-decoration: none;
+}
+
+.SplitImage {
+  cursor: default;
+  background-image: url('../Images/split.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 13px;
+  text-decoration: none;
+}
+
+/*End Expense Icons*/
+
+/*my engagements*/
+/*---Engagement Types---*/
+	.client, a.client:link, a.client:visited  {
+  color: #336699;
+}
+
+.authorized, a.authorized:link, a.authorized:visited {
+  color: #339933;
+}
+
+.authorizedBox {
+  background-color: #339933;
+  font-size: 0.5em;
+  vertical-align: middle;
+}
+
+.chargeable, a.chargeable:link, a.chargeable:visited {
+  color: #993399;
+}
+
+.chargeableBox {
+  background-color: #993399;
+  font-size: 0.5em;
+  vertical-align: middle;
+}
+
+.nonchargeable, a.nonchargeable:link, a.nonchargeable:visited {
+  color: #000000;
+}
+
+.nonchargeableBox {
+  background-color: #000000;
+  font-size: 0.5em;
+  vertical-align: middle;
+}
+
+.unknown a.unknown:link, a.unknown:visited {
+  color: gray;
+}
+
+/*---End Engagement Types---*/
+.tableCriteria  {
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+.tableCriteriaField td {
+  padding-top: 5px;
+  white-space: nowrap
+}
+
+.tableCriteriaField span {
+  font-weight: bold
+}
+
+.tableCriteriaFieldWrap td {
+  padding-top: 5px;
+}
+
+.tableCriteriaFieldWrap span {
+  font-weight: bold
+}
+
+.tableBorderWhite  {
+  border-left: solid 1px white;
+}
+
+.tableBorderGray  {
+  border-left: solid 1px #d9d9d9;
+}
+
+.tableBorderGrayRight  {
+  border-right: solid 1px #d9d9d9;
+}
+
+.tableBorderGrayTop {
+  border-top: solid 1px #d9d9d9;
+}
+
+.tableBorderGrayBottom  {
+  border-bottom: solid 1px #d9d9d9;
+}
+
+.tableBorderLightGrayBottom  {
+  border-bottom: solid 1px #cccccc;
+}
+
+.tableBorderLightGrayRight  {
+  border-right: solid 1px #cccccc;
+}
+
+.indent5 {
+  padding-left: 5px;
+}
+
+.indent15 {
+  padding-left: 15px;
+}
+
+.indent20 {
+  padding-left: 20px;
+}
+
+.indentR10 {
+  padding-right: 10px;
+}
+
+.w30h25 {
+  width: 20%;
+  height: 25px;
+}
+
+.w40h25 {
+  width: 40%;
+  height: 25px;
+}
+
+.w70r {
+  width: 70%;
+  text-align: right;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.w75 {
+  width: 75%;
+}
+
+.w100 {
+  width: 100%
+}
+
+.w100r {
+  width: 100%;
+  text-align: right
+}
+
+.w98 {
+  width: 98%
+}
+
+.w95 {
+  width: 95%
+}
+
+.w63 {
+  width: 63%
+}
+
+.w60 {
+  width: 60%
+}
+
+.w60r {
+  width: 60%;
+  text-align: right;
+}
+
+.w55 {
+  width: 55%
+}
+
+.w50 {
+  width: 50%
+}
+
+.w45 {
+  width: 45%
+}
+
+.w40 {
+  width: 40%
+}
+
+.w35 {
+  width: 35%
+}
+
+.w30 {
+  width: 30%
+}
+
+.w25 {
+  width: 25%;
+}
+
+.w20 {
+  width: 20%;
+}
+
+.w15 {
+  width: 15%
+}
+
+.w10 {
+  width: 10%;
+}
+
+.w5 {
+  width: 5%;
+}
+
+.w3 {
+  width: 3%;
+}
+
+.w2 {
+  width: 2%;
+}
+
+.tdAdvancedHR {
+  padding-top: 5px;
+  text-align: left;
+}
+
+.tdCheckOrgs {
+  padding-top: 5px
+}
+
+.tdSearch {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: normal
+}
+
+#letterGrid td {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.w5px {
+  width: 5px
+}
+
+.w10px {
+  width: 10px
+}
+
+.w15px {
+  width: 15px
+}
+
+.w20px {
+  width: 20px;
+}
+
+.w22px {
+  width: 22px;
+}
+
+.w55px {
+  width: 55px;
+}
+
+.w90px {
+  width: 90px;
+}
+
+.w100px {
+  width: 100px;
+}
+
+.w110px {
+  width: 110px;
+}
+
+.w120px {
+  width: 120px;
+}
+
+.w130px {
+  width: 130px;
+}
+
+.w200px {
+  width: 200px
+}
+
+.w215px {
+  width: 215px
+}
+
+.w400px {
+  width: 400px
+}
+
+.w500px {
+  width: 500px
+}
+
+.tdNumFoundBtnExport {
+  text-align: right;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.tdNumDisplayed {
+  text-align: right;
+  vertical-align: baseline;
+}
+
+.noTimesheetsFound {
+  text-align: center;
+  font-size: 1.3em;
+  color: #666666;
+}
+
+/*End My Engagemetns*/
+/*Expense Module*/
+.tableDashboard  {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.tableDashboardField td {
+  padding-top: 5px;
+  white-space: nowrap
+}
+
+.tableEntryField span {
+  font-weight: bold
+}
+
+.disableDescriptionBox {
+  color: GrayText;
+  border-color: GrayText;
+  font-size: 1em;
+}
+
+/*End Expense Module*/
+/*Admin Module*/
+.headerColor  {
+  background-color: whitesmoke;
+}
+
+.gridHeader  {
+  background-color: #d9d9d9;
+  font-weight: bold;
+}
+
+.headerText  {
+  font-weight: bold;
+}
+
+/*End Admin Module*/
+
+.divSmallWindow
+ {
+  margin: 12 12 12 0;
+  padding-left: 5;
+  text-align: center;
+  padding-right: 5;
+  padding-top: 12px;
+  padding-bottom: 5px;
+  border: 1px solid gray;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.divSmallWindowScrollable
+ {
+  margin: 12 12 12 0;
+  padding-left: 5;
+  text-align: center;
+  padding-right: 5;
+  padding-top: 12px;
+  padding-bottom: 5px;
+  border: 1px solid gray;
+  width: 100%;
+  z-index: 1;
+  overflow-y: auto;
+}
+
+.expenseHeading {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 10;
+}
+
+.expenseHeading li
+ {
+  display: inline;
+  list-style: none;
+  display: block;
+  float: left;
+  padding: 2 5 2 5;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  background-color: white;
+  z-index: 200;
+  height: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: -10;
+  left: 5;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.expenseInactiveLabel {
+  border: 1px solid #a9a9a9;
+  padding-left: 3;
+  color: #a9a9a9;
+  line-height: 18px;
+}
+
+.inactiveSelectOption {
+  background-color: #a9a9a9;
+  color: white;
+}
+
+/*User Preferences Start*/
+.divDelegateInnerGrid {
+  width: 100%;
+  height: 300px;
+  overflow: auto;
+}
+
+.tablePreference {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.tablePreference td {
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 2px;
+}
+
+.divPrefInnerGrid {
+  background-color: #F0F0F0;
+  border: 1px solid #999;
+  padding-bottom: 3px;
+}
+
+.invoicetabs  {
+  z-index: 5000;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  list-style-type: none;
+}
+
+.invoicetabs li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  list-style-type: none;
+}
+
+.invoicetabs a:link, .invoicetabs a:visited 
+ {
+  display: block;
+  float: left;
+  color: #666666;
+  background: #F0F0F0;
+  padding: 2px 12px;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: bold;
+  text-decoration: none;
+  border-right: 1px solid #999;
+  border-left: 1px solid #999;
+  border-top: 1px solid #999;
+  margin: 0 2px 0 0;
+}
+
+.invoicetabs a:link#current, .invoicetabs a:visited#current, .invoicetabs li.TabbedPanelsTabSelected a 
+ {
+  color: #000000;
+  background: #FFF !important;
+  border-bottom: 1px solid white !important;
+  height: 22px;
+}
+
+.invoicetabs a:hover  {
+  background: #F0F0F0;
+}
+
+.invoicetabs a:hover  {
+  color: #000;
+}
+
+/*User Preferences End*/
+
+/*Expense Appraisal Start*/
+.myExpense, a.myExpense:link, a.myExpense:hover, a.myExpense:visited  {
+  text-decoration: none;
+  color: #336699;
+}
+
+.oExpense, a.oExpense:link, a.oExpense:hover, a.oExpense:visited  {
+  text-decoration: none;
+  color: #000000;
+}
+
+.highPriority {
+  cursor: default;
+  background-image: url('../Images/ea_pri_red.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+}
+
+.noPriority {
+  cursor: default;
+  background-image: url('../Images/ea_pri_gray.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+}
+
+.lowPriority {
+  cursor: default;
+  background-image: url('../Images/ea_pri_green.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+}
+
+.mediumPriority {
+  cursor: default;
+  background-image: url('../Images/ea_pri_yellow.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+}
+
+.cautionPriority {
+  cursor: default;
+  background-image: url('../Images/ea_pri_blue.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+}
+
+/*Expense Appraisal End*/
+
+/*Expense Auditing Start*/
+.outerTable {
+  width: 98%;
+  height: 100px;
+}
+
+.tdAddInfo {
+  width: 38%;
+  border: 5px solid white;
+}
+
+.divTransHistory {
+  border: 1px solid #969696;
+  height: 100px;
+  overflow: auto;
+}
+
+.tdTransHistory {
+  background-color: #f0f0f0;
+  text-align: center;
+  width: 25%;
+}
+
+.tdTransHistDesc {
+  width: 50%;
+  border-bottom: solid 1px #f0f0f0;
+  border-right: solid 1px #f0f0f0;
+}
+
+.divAdditionalInfo {
+  border: 1px solid #969696;
+  height: 100px;
+  overflow: auto;
+}
+
+.tdAddInfoTitle {
+  background-color: #d9d9d9;
+  font-weight: bold;
+  width: 98%;
+}
+
+.tdAddInfoExpand {
+  text-align: center;
+  width: 2%;
+}
+
+.tdAddInfoDT {
+  background-color: #f0f0f0;
+  border-bottom: solid 1px white;
+  font-weight: bold;
+}
+
+.tdAddInfoUser {
+  background-color: #f5f5f5;
+  border-bottom: solid 1px white;
+  font-weight: bold;
+}
+
+.tdAddInfoDesc {
+  background-color: #f8f8ff;
+  border-bottom: solid 1px white;
+}
+
+.tdLeftEngagementInfo {
+  width: 20%;
+  font-weight: bold;
+}
+
+.tdRightEngagementInfo {
+  width: 24%;
+  padding-left: 5px;
+}
+
+.tdLeftAttendeeHistory {
+  width: 35%;
+}
+
+.tdRightAttendeeHistory {
+  width: 10%;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.tdAttendeeHideTitle {
+  background-color: #d9d9d9;
+  font-weight: bold;
+}
+
+.iconAdditionalInfo {
+  background-image: url('../Images/eaBusinessHistory.GIF');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.iconAttendeeHistory {
+  background-image: url('../Images/eaTaxableTransfer.GIF');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.iconLocation {
+  background-image: url('../Images/eaBusinessHistory.GIF');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.iconBusinessDescription {
+  background-image: url('../Images/eaBusinessHistory.GIF');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.iconEngagementInfo {
+  background-image: url('../Images/eaEngagementCode.GIF');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tdColw1 {
+  width: 1%;
+}
+
+.tdColw10 {
+  width: 10%;
+  text-align: center;
+}
+
+.tdColw14 {
+  width: 14%;
+}
+
+.tdColw20 {
+  width: 20%;
+}
+
+.tdCol10b {
+  width: 10%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tdCol13b {
+  width: 13%;
+  font-weight: bold;
+}
+
+.tdColw15b {
+  width: 15%;
+  font-weight: bold;
+}
+
+.tdCol16b {
+  width: 16%;
+  font-weight: bold;
+}
+
+.tdCol22b {
+  width: 22%;
+  font-weight: bold;
+}
+
+.tdColw1c {
+  width: 1%;
+  text-align: center;
+}
+
+.tdColw12r {
+  width: 12%;
+  text-align: right;
+}
+
+.tdColw12rb {
+  width: 12%;
+  text-align: right;
+  font-weight: bold;
+}
+
+.divAuditorComments {
+  width: 400px;
+  height: 150px;
+  border: solid 1px #cccccc;
+  overflow: auto;
+}
+
+.w400h50 {
+  Height: 50px;
+  Width: 400px;
+}
+
+.tdCommentsText {
+  border-bottom: solid 5px white;
+  border-top: solid 5px white;
+}
+
+.disableCommentsText {
+  border-color: #d9d9d9;
+}
+
+.tdEmailInfo {
+  height: 85%;
+  width: 85%;
+  padding: 5px 5px 5px 5px;
+}
+
+.tdAuditorLookupLGLabel {
+  width: 75px;
+  border-top: solid 10px white;
+}
+
+.tdAuditorLookupLGCtrl {
+  width: 125px;
+  text-align: right;
+  border-top: solid 10px white;
+}
+
+.tdAuditorLookupDDL {
+  width: 200px;
+  border-top: solid 5px white;
+}
+
+.tdAuditorLookupPriorityLabel {
+  width: 75px;
+  border-top: solid 5px white;
+}
+
+.tdAuditorLookupPriorityCtrl {
+  width: 125px;
+  text-align: right;
+  border-top: solid 5px white;
+}
+
+.tdAuditorLookupButtons {
+  width: 200px;
+  text-align: center;
+  border-top: solid 10px white;
+}
+
+.divWorksheetOrigLine {
+  overflow: auto;
+  width: 100%;
+  height: 75px;
+  border: solid 1px #cccccc;
+}
+
+/*Expense Auditing End*/
+
+/*Bulk Transfer Start*/
+/*.tableInputFields{background-color:Blue;margin:10px, 10px, 10px, 10px }*/
+.divContentLowerPopup {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  overflow: auto;
+  width: 100%;
+  height: expression(this.offsetParent.clientHeight - this.offsetTop - 31);
+}
+
+.tableInputFields td {
+  padding-top: 5px;
+  white-space: nowrap
+}
+
+.tableInputFields span {
+  font-weight: normal
+}
+
+.listedPeople {
+  width: 275px;
+  height: 120px
+}
+
+.scopeHead {
+  z-index: 102;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  Height: 15px;
+  font-size: 12px;
+  font-weight: bold
+}
+
+.engHead {
+  z-index: 105;
+  left: 0px;
+  position: absolute;
+  top: 160px;
+  Height: 15px;
+  font-size: 12px;
+  font-weight: bold
+}
+
+.engSchedHead {
+  z-index: 105;
+  left: 730px;
+  position: absolute;
+  top: 160px;
+  Height: 15px;
+  font-size: 12px;
+  font-weight: bold
+}
+
+.pad10px {
+  padding: 10px 10px 10px 10px
+}
+
+.margt20px {
+  margin-top: 20px
+}
+
+.grayItalic {
+  color: Gray;
+  font-style: italic;
+  background-color: Transparent;
+}
+
+.failedTransfer {
+  cursor: default;
+  background-image: url('../../NS/Images/ea_pri_yellow.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+}
+
+/*Bulk Transfer End*/
+
+
+/*Calendar styles*/
+.GteCalendar_container {
+  background-color: whitesmoke;
+  padding: 4px;
+  position: absolute;
+  cursor: default;
+  width: 170px;
+  text-align: center;
+  z-index: 9948;
+}
+
+.GteCalendar_container  {
+  border: 1px solid #646464;
+  color: #000000;
+  z-index: 9942;
+}
+
+.GteCalendar_hiddenFrame {
+  border: 1px solid red;
+  color: #000000;
+  width: 178px;
+  height: 200px;
+  z-index: 9941;
+}
+
+.GteCalendar_titleTable  {
+  height: 20px;
+  font-weight: bold;
+}
+
+.GteCalendar_header  {
+  height: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.GteCalendar_body  {
+  padding-top: 4px;
+  height: 135px;
+  width: 170px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+
+.GteCalendar_body table thead td {
+  font-weight: bold;
+}
+
+.GteCalendar_body table tbody td {
+  padding: 2px;
+}
+
+.GteCalendar_body_selected  {
+  color: black;
+  border: 1px solid black;
+}
+
+.GteCalendar_body_day {
+  color: black;
+  text-decoration: none;
+}
+
+.GteCalendar_body_activeToday .GteCalendar_body_day {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+  border: 1px solid blue;
+}
+
+.GteCalendar_body_active_hover .GteCalendar_body_day {
+  cursor: hand;
+  text-decoration: underline;
+}
+
+.GteCalendar_body_deactive .GteCalendar_body_day {
+  color: silver;
+  text-decoration: none;
+}
+
+.GteCalendar_body_other .GteCalendar_body_day {
+  color: Gray;
+  text-decoration: none;
+}
+
+.GteCalendar_body_otherdeactive .GteCalendar_body_day {
+  color: silver;
+  text-decoration: none;
+}
+
+.GteCalendar_footer  {
+  padding-top: 4px;
+  height: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*Calendar styles END*/
+
+
+/**/
+.helpMenu {
+  text-align: left;
+}
+
+/**/
+.framePeopleSearch {
+  border: none;
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+.link  {
+  color: #336699;
+  text-decoration: none;
+  cursor: default;
+}
+
+.hover  {
+  color: #336699;
+  text-decoration: underline;
+  cursor: hand;
+}
+

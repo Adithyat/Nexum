@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Nexum.master.cs" Inherits="PresentationLayer.Nexum" %>
+
+<!DOCTYPE html>
+
+<html style="height:100%;">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="Content/eyNav.css" />
+    <link rel="stylesheet" href="Content/gteVI.css" />
+    <link rel="stylesheet" href="Content/master.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="text-align:center;height:inherit">
+    <form style="height:inherit" runat="server">
+        <table style="height:inherit">
+            <tr style="height:15%">
+                <td> 
+                    <div class="divHeader">
+                        <table class="mrab">
+                            <tbody>
+                                <tr id="tr1">
+                                    <td id="td1" rowspan="2" colspan="1">
+                                        <img id="img1" src="content/eylogo-vi.png" />
+                                    </td>
+                                    <td class="td2" rowspan="1" colspan="1">
+                                        <span class="BoldGray" id="ctl00_lblAciveUser">Active User: username</span>
+                                        <span class="Gray" id="ctl00_lblUserName"><asp:Label ID="userNameLabel" runat="server"></asp:Label></span>
+                                    </td>
+                                    <td class="td2" rowspan="1" colspan="1">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="td3" rowspan="1" colspan="2">
+                                        <h2>
+                                            <span id="ctl00_lblAppNameHeader">Nexum Portal</span>
+                                        </h2>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="height: 8px" rowspan="1" colspan="1"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        <div id="eyMenuNav">
+                                            <ul>
+                                                <li class="" id="ctl00-siteMenu_rptSiteMenu_ctl01_liTag">
+                                                    <a class="sub" onclick="" href="NexumHome.aspx" >Home</a>
+                                                </li>
+                                                <li class="" id="ctl00-siteMenu_rptSiteMenu_ctl02_liTag">
+                                                    <a class="sub" onclick="" href="NexumInput.aspx" >Input</a>
+                                                </li>
+                                                <li class="" id="ctl00-siteMenu_rptSiteMenu_ctl03_liTag">
+                                                    <a class="sub" onclick="" href="NexumView.aspx" >View</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="spacer"></div>
+                </td>
+            </tr>
+            <tr style="height:80%">
+                <td>
+                    <div class="homebody">
+                        <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </td>
+            </tr>
+            <tr style="height:5%">
+                <td>
+                    <div class="spacer"></div>
+                    <div class="divFooter">
+                        <table class="mtab" border="1">
+                            <tbody>
+                                <tr>
+                                    <td id="td6" rowspan="1" colspan="1" style="border:0;">
+                                        <ul class="text8">
+                                            <li>©<span id="ctl00_lblYearEnd">2017</span>&nbsp;Ernst &amp; Young LLP</li>
+                                            <li><span id="ctl00_lblAllRightsReserved">All rights reserved.</span></li>
+                                            <li><span id="ctl00_lblLastAccessDateTimeText"></span>&nbsp;<span id="ctl00_lblLastAccessDateTime"></span></li>
+                                        </ul>
+                                    </td>
+                                    <td id="td4" colspan="1" style="border:0;">
+                                        <ul class="text8">
+                                            <li style="width: auto; text-align: left"><span id="ctl00_lblDateTimeFormat">All dates and times are in 24-hour GMT format.</span></li>
+                                            <li style="width: auto; text-align: left"><span id="ctl00_lblDateTimeFormat"></span></li>
+                                            <li style="width: auto; text-align: left"><span id="ctl00_lblDateTimeFormat">Created by Adithya Thiruvalluvan </span></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

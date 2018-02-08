@@ -1,0 +1,299 @@
+#Content2 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+label {
+    width: 120px;
+    font-size: .9em;
+    color: #666;
+    font-weight: bold;
+    text-align: left;
+    float: left;
+    margin: 6px 1em 0 0;
+    padding: 0;
+}
+/* @group login */
+.loginscreen, body {
+    background: none #fff;
+    color: #333;
+}
+
+.loginscreen {
+    min-width: 890px;
+}
+
+.wrapper.signinCP {
+    background: none;
+    position: relative;
+    width: 80%;
+    margin: 0;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    padding: 0;
+    border-top: 1px solid transparent;
+}
+
+#gleamlogin {
+    position: relative;
+    width: 50%;
+    min-width: 720px;
+    margin: 10px auto;
+}
+
+
+.signin {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    width: 40%;
+    /* for IE 8 - always needs to come first */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+    /* for IE */
+    filter: alpha(opacity=85);
+    /*margin: 220px auto 0;*/
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    zoom: 1;
+}
+
+h2.signintitle {
+    color: #333;
+}
+
+    h2.signintitle.alert {
+        color: #ffe600;
+    }
+
+.signin input {
+    font-size: 14px;
+    padding: 5px;
+    margin: 0 0 0;
+    width: 250px;
+    background-color: #fff;
+    color: #555;
+    border: 1px solid #ccc;
+}
+
+
+
+.signin label {
+    color: #333;
+    text-align: right;
+    font-size: 12px;
+    clear: both;
+    line-height: 1.1;
+    margin-top: .5em;
+    width: 240px;
+}
+
+.signin img {
+    /*display: none;*/
+}
+
+.signin .username {
+    margin-right: 10px;
+}
+
+.signin .password {
+    margin-right: 0px;
+    display: block;
+}
+
+.signin .keepsignedin {
+    margin: 10px 0 0 256px;
+}
+
+    .signin .keepsignedin a {
+        margin: 1em 0 0 0;
+        clear: both;
+        display: block;
+    }
+
+    .signin .keepsignedin label {
+        margin-left: 5px;
+        width: auto;
+        float: none;
+    }
+
+    * + HTML .signin .keepsignedin label {
+        margin-left: 20px;
+    }
+
+input.keepsignedinInput { /*Checkbox*/
+    margin-top: 5px;
+    background-color: transparent;
+    border: 1px none #999999;
+    color: #333333;
+    width: 16px;
+    height: 16px;
+}
+
+* + html input.keepsignedinInput {
+    position: absolute;
+    margin-right: 10px;
+}
+
+.forgot a {
+    display: block;
+    color: #369;
+    font-weight: bold;
+    clear: both;
+    margin: 2em 0 0 0;
+    float: left;
+}
+
+
+.notamember {
+    width: 400px;
+    padding-left: 190px;
+    text-align: left;
+    margin: 1em auto 2em;
+}
+
+    .notamember h4 {
+        color: #333;
+        font-size: 14px;
+        width: auto;
+        margin-bottom: 0.5em;
+        margin-top: 1em;
+        margin-right: 0;
+    }
+
+    .notamember ul {
+        margin: 0;
+    }
+
+    .notamember li {
+        list-style-type: none;
+        color: #666;
+        line-height: 1.5
+    }
+
+        .notamember li a {
+            color: #369;
+        }
+
+.loginscreen a {
+    color: #369;
+}
+
+a.languageitem {
+    color: #ffe600;
+    padding: 0;
+    margin: 0 0 12px;
+    line-height: 1;
+    display: block;
+    font-size: 12px;
+}
+
+#languagediv {
+    position: absolute;
+    height: auto;
+    top: -295px;
+    right: 2%;
+    padding: 0 20px;
+    background: #333 !important;
+    color: #fff;
+    border: 1px solid #666;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+
+* + html #languagediv {
+    zoom: 1;
+}
+
+.languagesmenu {
+    position: static;
+    cursor: pointer;
+    padding: 35px 0 0 0;
+    margin: 0 0 20px;
+}
+
+    .languagesmenu li {
+        list-style-type: none;
+        text-align: left;
+        background-image: none;
+        line-height: 1;
+        padding: 0;
+        margin: 0;
+        white-space: nowrap;
+    }
+
+a.opensesame {
+    position: relative;
+    z-index: 1000;
+    /*padding: 0 30px 20px;*/
+    color: #ccc;
+    font-size: 14px;
+    left: 0;
+}
+
+* + html .opensesame {
+    zoom: 1;
+}
+
+h1.appname {
+    background: url(../images/grayEYlogo_en.png) no-repeat 0 15px;
+    position: static;
+    color: #666;
+    font-weight: bold;
+    width: 100%;
+    text-indent: 200px;
+    padding: 58px 0 5px 0;
+    text-align: right;
+}
+
+h2.tagline {
+    position: static;
+    width: auto;
+    margin: 0 0 0 0px;
+    text-align: right;
+    color: #999;
+}
+/* @end */
+
+/* @group EYSSO */
+.label {
+    color: #333;
+    float: left;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 6px 1em 0 0;
+    padding: 0;
+    text-align: left;
+    width: 280px;
+}
+
+.signin .label {
+    clear: both;
+    color: #333;
+    font-size: 14px;
+    text-align: right;
+}
+
+.signin .signinbutton {
+    background: #369;
+    border: medium none;
+    color: #fff;
+    padding: 1em 2em;
+    display: block;
+    font-size: 16px;
+    line-height: 1;
+    margin: 1em 0 1em 0;
+    width: auto;
+    cursor: auto;
+}
+
+.signinbutton:hover {
+}
+/* @end */
